@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Секреты
+config.py
+.env
+
+# Временные файлы
+*.log
+*.tmp
+
+# Редакторы
+.vscode/
+.idea/
