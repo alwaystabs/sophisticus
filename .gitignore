@@ -1,16 +1,13 @@
-# Python
 __pycache__/
 *.pyc
 
-# Секреты
 config.py
 .env
 token.txt
+bot_token.txt
 
-# Временные файлы
 *.log
 *.tmp
 
-# Редакторы
 .vscode/
 .idea/

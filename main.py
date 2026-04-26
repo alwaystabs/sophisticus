@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from command_engine import CommandEngine
 import cpuinfo
 # --- Настройки ---
-TOKEN = "8641635572:AAH9ZOt2R6PAfY87O00dlAOMz7Zeh8-zD20"  # Получи у @BotFather
+TOKEN = "8641635572:AAFNhNFasRZR8BAIL9cJ88c8wmFpv7i6D74"  # Получи у @BotFather
 PREFIX = "/"
 
 # --- Логирование (чтобы видеть ошибки) ---
@@ -35,7 +35,7 @@ def ai_ask():
     if cpu_model == 'Intel(R) Celeron(R) N5100 @ 1.10GHz':
         return "Хост на Celeron N5100, запуск AI невозможен"
     elif cpu_model == "AMD Ryzen 5 5500":
-        return "Хост на A4000, запуск AI..."
+        return "Хост на A4000, запуск AI..." # 26.04.2026 / Ясное дело, что на Celeron нейронку не стартанешь
 
 
 
