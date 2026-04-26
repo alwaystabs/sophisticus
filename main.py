@@ -33,7 +33,10 @@ def cmd_echo(text):
 def ai_ask():
     cpu_model = cpuinfo.get_cpu_info()['brand_raw']
     if cpu_model == 'Intel(R) Celeron(R) N5100 @ 1.10GHz':
-        return ""
+        return "Хост на Celeron N5100, запуск AI невозможен"
+    elif cpu_model == "AMD Ryzen 5 5500":
+        return "Хост на A4000, запуск AI..."
+
 
 
 # --- Обработчик команд Telegram ---
